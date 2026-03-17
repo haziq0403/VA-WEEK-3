@@ -15,3 +15,26 @@ Steps:
 2. Connect using OpenVPN
 3. Scan the network using Nmap
 4. Identify active machines in the network
+
+# Vulnerability Analysis Report
+
+Target Network
+10.150.150.0/24
+
+Scanning Tool
+Nmap
+
+Command Used
+nmap 10.150.150.0/24
+
+Result
+Several hosts were detected as active in the network.
+
+Example Target
+IP Address: 10.150.150.69
+Operating System: Windows
+Status: Active
+
+Conclusion
+Network scanning successfully identified multiple hosts within the range.
+These hosts may contain vulnerabilities for further penetration testing.
