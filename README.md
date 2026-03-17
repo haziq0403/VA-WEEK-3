@@ -16,6 +16,15 @@ Steps:
 3. Scan the network using Nmap
 4. Identify active machines in the network
 
+Connect to VPN
+openvpn PwnTillDawn.ovpn
+
+Scan network
+nmap 10.150.150.0/24
+
+Check active hosts
+nmap -sn 10.150.150.0/24
+
 # Vulnerability Analysis Report
 
 Target Network
